@@ -2,10 +2,12 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES6",
+    "lib": ["ES2020", "DOM"],
     "sourceMap": true,
-    "outDir": "./dist",
+    "outDir": "./dist/lib/es6",
     "noImplicitAny": true,
-    "declaration": true
+    "declaration": true,
+    "moduleResolution": "node"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
